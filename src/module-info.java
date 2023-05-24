@@ -2,7 +2,7 @@
  * 
  */
 /**
- * @author i7C-31
+ * @author c
  *
  */
 module Java_clear {
