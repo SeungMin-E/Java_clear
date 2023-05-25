@@ -23,6 +23,8 @@ public class Javatest02 {
 		System.out.println(d);
 		System.out.println(e+f+g);
 		
+		System.out.println("e : " + e);
+		
 		
 	}
 
