@@ -21,5 +21,12 @@ public class ExFloatDouble {
 		System.out.println("var6 : " + var6);
 		System.out.println("var7 : " + var7);
 		
+		float var8 = 3;
+		float var9 = 3f;
+		float var10 = 3F;
+		
+		System.out.println("var : " + var8);
+		System.out.println("var : " + var9);
+		System.out.println("var : " + var10);
 	}
 }
