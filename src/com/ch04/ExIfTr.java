@@ -92,9 +92,9 @@ public class ExIfTr {
 		
 		if(num != 0) {
 			if(num % 2 == 0) {
-				System.out.println(num + "은 짝수");
+				System.out.println(num + "은(는) 짝수");
 			}else {
-				System.out.println(num + "은 홀수");
+				System.out.println(num + "은(는) 홀수");
 			}
 		}else {
 			System.out.println("0 넣으면 홀짝을 어떻게 하니....");
