@@ -50,7 +50,10 @@ public class ExForTr {
 					System.out.println("error");
 				}
 			}else if(c < d) {
-				
+				if(c > e) {
+				}else {
+					
+				}
 			}
 		}else {
 			System.out.println("똑같은 숫자가 2개네요.. 나눌수는 있지만은...");
