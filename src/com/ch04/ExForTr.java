@@ -57,7 +57,7 @@ public class ExForTr {
 				}
 			}
 		}else {
-			System.out.println("똑같은 숫자가 2개네요.. 나눌수는 있지만은...");
+			System.out.println("똑같은 숫자가 2개네요.. 최대랑 최소는 분류 할 수는 있지만은...");
 		}
 		
 		// 사장, 부장, 과장, 대리, 주임, 사원, 나 (switch)
@@ -77,6 +77,13 @@ public class ExForTr {
 		// **********
 		// 출력(for)
 		
+		for(int i=0; i<=4; i++) {
+			for(int j = 1; j<=10; j++) {
+				System.out.print("*");
+			}
+			System.out.println("");
+		}
+		System.out.println();
 		
 		// **********
 		// *        *
@@ -84,6 +91,6 @@ public class ExForTr {
 		// *        *
 		// **********
 		// 출력(for)
-		
+
 	}
 }
