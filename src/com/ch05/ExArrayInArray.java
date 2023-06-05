@@ -17,15 +17,23 @@ public class ExArrayInArray {
 		System.out.println("-----------------------------------------------------------------------");
 		
 		int sum = 0;
+
 		double avg = 0;
 		
 		for(int i = 0; i < score.length; i++) {
+			sum = 0;
 			for(int j = 0; j < score[i].length; j++) {
 				System.out.println("score["+i+"]["+j+"]"+score[i][j]);
-				if() {
-					
-				}else {
-					
+				if(i == 0) {
+					sum += score[0][j];
+				}else if(i == 1){
+					sum += score[1][j];
+				}else if(i == 2){
+					sum += score[2][j];
+				}else if(i == 3){
+					sum += score[3][j];
+				}else if(i == 4){
+					sum += score[4][j];
 				}
 			}
 			avg = sum/3;
