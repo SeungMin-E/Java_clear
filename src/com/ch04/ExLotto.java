@@ -4,7 +4,7 @@ package com.ch04;
 public class ExLotto {
 	public static void main(String[] args) {
 		
-		// 로토번호 생성기
+		// 로또번호 생성기
 		// 현재까지 나온 번호 중복되지 않아야함
 		// https://dhlottery.co.kr/gameResult.do?method=byWin&wiselog=H_C_1_1
 		// 여기에서 현재까지 번호 다운 가능
@@ -13,19 +13,9 @@ public class ExLotto {
 		// 보너스 번호는 제외
 		// 1070회 진행 되었음
 		
-		int lotto[]  = new int[6];
 		
-		for(int i = 0; i < lotto.length; i++) {
-			int a = (int)(Math.random() * 45) + 1;
-			lotto[i] = a;
-			for(int j = 0; j < i; j++) {
-				if(lotto[i] == lotto[j]) {
-					--i;
-					break;
-				}
-			}
-			System.out.print(lotto[i] + " ");
-		}
+		
+		int lotto[]  = new int[6];
 		
 		String[] oldNumber = {
 				"3/6/14/22/30/41",
@@ -1099,5 +1089,21 @@ public class ExLotto {
 				"9/13/21/25/32/42",
 				"10/23/29/33/37/40",
 			};
+		
+		
+		
+		for(int i = 0; i < lotto.length; i++) {
+			int Number = (int)(Math.random()*45) + 1;
+			lotto[i] = Number;
+			for(int j = 0; j < i; j++) {
+				if(lotto[i] == lotto[j]) {
+					i--;
+					break;
+				}
+			}
+			System.out.print(lotto[i] + " ");
+		}
+		
+		
 	}
 }
