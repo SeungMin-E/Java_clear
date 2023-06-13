@@ -16,6 +16,7 @@ public class TrGugu {
 				
 				System.out.print("숫자 입력 : ");
 				a = scanner.nextInt();
+				System.out.println("----------------------------------------------");
 			}else if(a == 0){
 				System.out.println("프로그램 종료");
 				break;
