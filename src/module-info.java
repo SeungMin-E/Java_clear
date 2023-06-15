@@ -6,4 +6,5 @@
  *
  */
 module Java_clear {
+	requires java.desktop;
 }
